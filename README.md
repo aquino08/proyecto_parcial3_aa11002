@@ -114,4 +114,4 @@ CREATE TABLE factflights(
 
 ## Url de video  <br>
 
-![Url de video de explicación de resolución de parcial 3](https://github.com/aquino08/proyecto_parcial3_aa11002/blob/main/Imagenes/ModeloDimensional_Parcial3_AA11002.png)
+![Url de video de explicación de resolución de parcial 3](https://github.com/aquino08/proyecto_parcial3_aa11002.png)
