@@ -1,0 +1,51 @@
+CREATE TABLE dimairline(
+    	AirlineKey int PRIMARY KEY,
+    	AirlineId Varchar(50) distkey,
+    	Description Varchar (250)
+);
+
+CREATE TABLE dimdate(
+    	Datekey int PRIMARY KEY distkey,
+    	fullDate Varchar(10),
+    	dayName Varchar (15),
+	dayOfWeek int,
+	dayNumInMonth int,
+	monthNumOverall int,
+	monthName Varchar (15),
+	weekNumInYear int,
+	quaterName Varchar (15),
+	quater int,
+	semesterName Varchar (15),
+	semester int,
+	year int,
+)sortKey(Datekey, monthName, year);
+
+CREATE TABLE factflights(
+    	AirlineKey int,
+    	DateKey int distkey,
+    	Flight_Number_Operating_Airline int,
+	Origin Varchar (100),
+	OriginCityName Varchar (100),
+	OriginStateName Varchar (100),
+	Dest Varchar (100),
+	DestCityName Varchar (100),
+	DestStateName Varchar (100),
+	Flights int,
+	Airtime int,
+	Cancelled Varchar (20),
+	Diverted Varchar (20),
+	Delayed Varchar (20),
+	WheelsOffMinutes Varchar (20),
+	WheelsOnMinutes Varchar (20),
+	DepDelayMinutes int,
+	ArrDelayMinutes int,
+	CarrierDelay int,
+	WeatherDelay int,
+	NASDelay int,
+	SecurityDelay int,
+	LateAircraftDelay int,
+	TotalDelayTime int,
+	DivReachedDest Varchar (20),
+	FOREIGN KEY(AirlineKey) REFERENCES dimairline(AirlineKey),
+	FOREIGN KEY(DateKey) REFERENCES dimdate(Datekey)
+)sortKey(AirlineKey, Datekey);

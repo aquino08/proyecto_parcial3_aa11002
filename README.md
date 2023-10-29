@@ -43,11 +43,11 @@ Descripción del DataSet de la base de datos transaccional de vuelos <br>
 | 26 | DivReachedDest  				    | String       | Indicador si un vuelo desviado, logró alcanzar su destino inicial programado. 	|
 
 
+## Diagrama del Dataset
+
 ![Diagrama del Data Set](https://github.com/aquino08/proyecto_parcial3_aa11002/blob/main/Imagenes/DataSet_Parcial3_AA11002.png)
 
 ## Modelo dimensional
-
-Poner aquí lo de los 4 pasos del documento de word  <br>
 
 ![Modelo Dimensional DW](https://github.com/aquino08/proyecto_parcial3_aa11002/blob/main/Imagenes/ModeloDimensional_Parcial3_AA11002.png)
 
@@ -111,3 +111,7 @@ CREATE TABLE factflights(
 )sortKey(AirlineKey, Datekey);
 
 ```
+
+## Url de video  <br>
+
+![Url de video de explicación de resolución de parcial 3](https://github.com/aquino08/proyecto_parcial3_aa11002/blob/main/Imagenes/ModeloDimensional_Parcial3_AA11002.png)
