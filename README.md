@@ -114,4 +114,8 @@ CREATE TABLE factflights(
 
 ## Url de video  <br>
 
-![Url de video de explicación de resolución de parcial 3](https://github.com/aquino08/proyecto_parcial3_aa11002.png)
+![Url de video de explicación de resolución de parcial 3](https://drive.google.com/file/d/1FZ5oyIv9HQJHjQouuLRH83V-gnvl7x3L/view?usp=drive_link)
+
+## Url de carpeta de proyecto en talend  <br>
+
+![Url de proyecto de talend en google drive](https://drive.google.com/file/d/1FZ5oyIv9HQJHjQouuLRH83V-gnvl7x3L/view?usp=drive_link)
